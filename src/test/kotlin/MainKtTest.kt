@@ -27,7 +27,7 @@ class MainKtTest {
         val cardType = "Mastercard"
         val transferSumMonth = 10000
         val nextTransfer = 80000
-        val different = 110
+        val different = 11
         var result = calculateTransfer(cardType, transferSumMonth, nextTransfer)
         assertEquals("Перевод на сумму " + nextTransfer + " руб. выполнен, комиссия составляет " + different + " руб.", result)
     }
